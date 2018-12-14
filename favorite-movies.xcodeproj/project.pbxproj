@@ -12,6 +12,8 @@
 		27F2B39321C44E4800778826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F2B39121C44E4800778826 /* Main.storyboard */; };
 		27F2B39521C44E4900778826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F2B39421C44E4900778826 /* Assets.xcassets */; };
 		27F2B39821C44E4900778826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F2B39621C44E4900778826 /* LaunchScreen.storyboard */; };
+		27F2B3A021C4522800778826 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2B39F21C4522800778826 /* CustomTableViewCell.swift */; };
+		27F2B3A221C4534D00778826 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2B3A121C4534D00778826 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		27F2B39421C44E4900778826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F2B39721C44E4900778826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F2B39921C44E4900778826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F2B39F21C4522800778826 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		27F2B3A121C4534D00778826 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				27F2B38D21C44E4800778826 /* AppDelegate.swift */,
 				27F2B38F21C44E4800778826 /* ViewController.swift */,
 				27F2B39121C44E4800778826 /* Main.storyboard */,
+				27F2B39F21C4522800778826 /* CustomTableViewCell.swift */,
 				27F2B39421C44E4900778826 /* Assets.xcassets */,
 				27F2B39621C44E4900778826 /* LaunchScreen.storyboard */,
 				27F2B39921C44E4900778826 /* Info.plist */,
+				27F2B3A121C4534D00778826 /* Movie.swift */,
 			);
 			path = "favorite-movies";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F2B3A021C4522800778826 /* CustomTableViewCell.swift in Sources */,
 				27F2B39021C44E4800778826 /* ViewController.swift in Sources */,
+				27F2B3A221C4534D00778826 /* Movie.swift in Sources */,
 				27F2B38E21C44E4800778826 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
